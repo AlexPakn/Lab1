@@ -1,0 +1,544 @@
+/* Стили для #header *//* Стили для #header *//* Стили для #header *//* Стили для #header */
+#header {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color: #A9BFE4; /* Цвет фона */
+    display: flex;
+    align-items: center;
+}
+
+/* Логотип */
+#logo {
+    position: absolute;
+    top: 8px;
+    left: 64px;
+    width: 136.48px;
+    height: 55px;
+}
+
+/* Меню */
+#menu {
+    position: absolute;
+    top: 25px;
+    left: 258px;
+    width: 451px;
+    height: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.11px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #FFF; /* Цвет текста */
+    padding: 0 10px; /* Отступы между ссылками */
+}
+
+#menu a:hover {
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+/* Стили для Section 1 *//* Стили для Section 1 *//* Стили для Section 1 */
+#section1 {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+/* Заголовок */
+#title {
+    position: absolute;
+    top: 163px;
+    left: 63px;
+    width: 300px;
+    height: 64px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30.17px;
+    color: #351F21;
+}
+
+/* Описание */
+#description {
+    position: absolute;
+    top: 240px;
+    left: 63px;
+    width: 303px;
+    height: 63px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.6px;
+    color: #351F21;
+}
+
+/* Изображение букета */
+#bouquet {
+    position: absolute;
+    top: 70px;
+    left: 490px;
+    width: 270px;
+    height: 313.74px;
+}
+
+/* Секция букетов *//* Секция букетов *//* Секция букетов *//* Секция букетов */
+#bouquets {
+    position: relative;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top: 40px;
+}
+
+/* Карточки букетов */
+.bouquet-card {
+    position: relative;
+    display: inline-block;
+    width: 210px;
+    height: 175px;
+    margin-left: 0; /* Убираем отступы между букетами */
+    text-align: center;
+    background-size: cover;
+    margin-right: 10px; /* Немного добавим отступ справа для расстояния между карточками */
+}
+
+/* Изображения букетов */
+.bouquet-image {
+    width: 210px;
+    height: 145px;
+    display: block;
+}
+
+/* Кнопки */
+.bouquet-button {
+    position: absolute;
+    bottom: 40px; /* Поднимаем кнопку на 10px вверх */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 130px;
+    height: 30px;
+    background-color: #A9BFE4;
+    border: none;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.6px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+/* Заголовок "Про нас" */
+#about-title {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 65px;
+    width: 139px;
+    height: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30.17px;
+    color: #351F21;
+}
+
+/* Описание */
+.description {
+    position: relative;
+    width: 324px;
+    margin-left: 65px;
+    margin-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.6px;
+    color: #351F21;
+}
+
+/* Женщина */
+#women {
+    position: absolute;
+    top: 224px;
+    left: 408px;
+    width: 292px;
+    height: 181px;
+}
+
+/* Фон */
+#abstract-background {
+    position: absolute;
+    top: 176px;
+    left: 470px;
+    width: 291.27px;
+    height: 229px;
+    mix-blend-mode: multiply;
+}
+
+/* Section 3 *//* Section 3 *//* Section 3 *//* Section 3 *//* Section 3 */
+#section3 {
+    position: relative;
+    width: 100%;
+    height: 156px;
+    background-color: rgba(169, 191, 228, 0.3); /* Цвет с прозрачностью 30% */
+    margin-top: 40px;
+}
+
+/* Заголовок */
+#section3-title {
+    position: absolute;
+    top: 7px;
+    left: 63px;
+    width: 224px;
+    height: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.11px;
+    color: #989EC3;
+}
+
+/* Иконки */
+.section3-icon {
+    position: absolute;
+    width: 65.2px; /* Общий размер для большинства иконок */
+    height: 55px; /* Общий размер для большинства иконок */
+}
+
+#constructor {
+    top: 48px;
+    left: 105px;
+}
+
+#indoor {
+    top: 48px;
+    left: 266px;
+}
+
+#delivery {
+    width: 61.97px; /* Особый размер */
+    height: 63px;
+    top: 46px;
+    left: 429px;
+}
+
+#for-loved-ones {
+    width: 75px; /* Особый размер */
+    height: 75px;
+    top: 34px;
+    left: 583px;
+}
+
+/* Подписи под иконками */
+.section3-caption {
+    position: absolute;
+    width: 150px;
+    height: 52px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13.83px;
+    text-align: center;
+    color: #351F21;
+}
+
+#caption-constructor {
+    top: 101px;
+    left: 63px;
+}
+
+#caption-indoor {
+    top: 101px;
+    left: 224px;
+}
+
+#caption-delivery {
+    top: 101px;
+    left: 385px;
+}
+
+#caption-for-loved-ones {
+    top: 101px;
+    left: 546px;
+}
+
+
+/* Section 4 *//* Section 4 *//* Section 4 *//* Section 4 *//* Section 4 */
+#section4 {
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    background-color: #FFFFFF;
+    padding-bottom: 40px; /* Для дополнительного пространства снизу */
+}
+/* Заголовок */
+#catalog-title {
+    position: absolute;
+    top: 47px;
+    left: 64px;
+    width: 139px;
+    height: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30.17px;
+    color: #351F21;
+}
+
+/* Общий стиль карточек */
+.card {
+    position: absolute;
+    width: 200px;
+    height: 290px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(255, 194, 199, 1); /* Тень */
+    text-align: center;
+    color: #351F21;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Изображение букета */
+.card img {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+/* Название букета */
+.card-title {
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.6px;
+    color: #351F21;
+}
+
+/* Цена */
+.card-price {
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.6px;
+    color: #351F21;
+}
+
+
+/* Section 5 *//* Section 5 *//* Section 5 *//* Section 5 *//* Section 5 */
+
+#section5 {
+    margin-top: 700px; /* Увеличьте значение, чтобы опустить секцию ниже */
+    position: relative;
+    width: 760px;
+    height: 610px;
+    background-color: rgba(169, 191, 228, 0.2);
+    padding: 24px 64px;
+    box-sizing: border-box;
+    clear: both;
+}
+
+
+
+/* Заголовок "Відгуки" */
+#reviews-title {
+    width: 139px;
+    height: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30.17px;
+    color: #351F21;
+    margin-bottom: 24px;
+}
+
+/* Общий стиль карточек отзыва */
+.review-card {
+    position: relative;
+    width: 630px;
+    height: 107px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 8px #ACACAC;
+    margin-bottom: 24px;
+    padding: 16px 24px;
+    box-sizing: border-box;
+}
+
+/* Имя автора */
+.review-author {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16.34px;
+    color: #989EC3;
+    margin-bottom: 8px;
+}
+
+/* Текст отзыва */
+.review-text {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.6px;
+    color: #351F21;
+}
+
+/* Блок "Додати відгук" */
+#add-review-title {
+    width: 172px;
+    height: 27px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25.14px;
+    color: #351F21;
+    margin-top: 30px;
+}
+
+/* Поля ввода */
+.input-field {
+    width: 631px;
+    height: 29px;
+    background-color: #FFFFFF;
+    border: 1px solid #ACACAC;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.08px;
+    color: #ACACAC;
+    box-sizing: border-box;
+}
+
+#review-textarea {
+    height: 94px;
+}
+
+/* Кнопка "Відправити" */
+#submit-button {
+    width: 117px;
+    height: 29px;
+    background-color: #FFC2C7;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15.08px;
+    color: #FFFDFD;
+    text-align: center;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+
+/*footer*//*footer*//*footer*//*footer*//*footer*//*footer*//*footer*/
+footer {
+    margin-top: 80px; /* Увеличьте значение, чтобы опустить секцию ниже */
+    position: absolute;
+    top: 2440px; /* Расположение футера */
+    width: 760px;
+    height: 120px;
+    background-color: #A9BFE4;
+    padding: 0 64px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Логотип */
+footer .logo {
+    position: absolute;
+    top: 8px;
+    left: 64px;
+    width: 136.48px;
+    height: 55px;
+    background: url('logo.png') no-repeat center center;
+    background-size: contain;
+}
+
+/* Контакти */
+footer .contacts-title {
+    position: absolute;
+    top: 5px;
+    left: 260px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.92px;
+}
+
+footer .contacts-info {
+    position: absolute;
+    top: 33px;
+    left: 259px;
+    width: 122px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13.83px;
+}
+
+/* Інформація */
+footer .info-title {
+    position: absolute;
+    top: 5px;
+    left: 435px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.92px;
+}
+
+footer .info-links {
+    position: absolute;
+    top: 45px;
+    left: 435px;
+    width: 84px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13.83px;
+}
+
+/* Каталог */
+footer .catalog-title {
+    position: absolute;
+    top: 5px;
+    left: 612px;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.92px;
+}
+
+footer .catalog-links {
+    position: absolute;
+    top: 45px;
+    left: 612px;
+    width: 84px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13.83px;
+}
+
+/* Copyright */
+footer .copyright {
+    position: absolute;
+    top: 92px;
+    left: 64px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 13.83px;
+}
